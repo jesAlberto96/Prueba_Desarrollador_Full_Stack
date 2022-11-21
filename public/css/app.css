@@ -1,0 +1,14 @@
+.container{
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.menu-side{
+    width: 280px;
+    height: 90vh;
+    position: fixed;
+}

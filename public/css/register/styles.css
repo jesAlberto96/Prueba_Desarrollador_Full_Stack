@@ -1,0 +1,112 @@
+.content-welcome{
+    height: 100vh;
+}
+
+.content-welcome .content-welcome__background{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.content-welcome .content-welcome__background h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 47px;
+    align-items: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 62vh;
+    left: 16vh;
+}
+
+.content-welcome .content-welcome__background h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    align-items: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 78vh;
+    left: 16vh;
+}
+
+.content-welcome .content-welcome__login{
+    height: 100%;
+}
+
+.content-welcome .content-welcome__login .content-form .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.content-welcome .content-welcome__login .content-form .form img{
+    object-fit: cover;
+    width: 30vh;
+    display: flex;
+    justify-self: center;
+    margin-top: 14vh;
+}
+
+.content-welcome .content-welcome__login .content-form .form form{
+    width: 80%;
+    margin-top: 5vh;
+}
+
+.content-welcome .content-welcome__login .content-form .form form .form-text{
+    margin-bottom: 2vh;
+    color: #000000;
+}
+
+.content-welcome .content-welcome__login .content-form .form form div .form-label{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+.content-welcome .content-welcome__login .content-form .form form .button{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.content-welcome .content-welcome__login .content-form .form form .back{
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.content-welcome .content-welcome__login .content-form .form form .button button{
+    width: 90%;
+    background: #3737EC;
+    border-radius: 3.25rem;
+}
+
+@media (max-width: 990px){
+    .content-welcome{
+        justify-content: center;
+        background-color: #f8f9fa;
+    }
+
+    .content-welcome .content-welcome__background {
+        display: none;
+    }
+    
+    .content-welcome .content-welcome__login {
+        width: 90vw;
+    }
+}
